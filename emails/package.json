@@ -19,6 +19,12 @@
   },
   "dependencies": {
     "grunt-assemble": "^0.4.0",
-    "grunt-contrib-clean": "^0.6.0"
-  }
+    "grunt-contrib-clean": "^0.6.0",
+    "snyk": "^1.290.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }

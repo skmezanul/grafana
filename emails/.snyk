@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - grunt-assemble > gray-matter > fs-utils > globule > glob > minimatch:
+        patched: '2020-01-31T22:12:54.991Z'
+    - grunt-assemble > gray-matter > fs-utils > globule > minimatch:
+        patched: '2020-01-31T22:12:54.991Z'
